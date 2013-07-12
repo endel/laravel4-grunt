@@ -4,7 +4,8 @@
 	"keywords": ["framework", "laravel"],
 	"require": {
 		"laravel/framework": "4.0.*",
-		"facebook/php-sdk": "> 0"
+		"facebook/php-sdk": "> 0",
+		"components/jquery": "1.9.*"
 	},
 	"autoload": {
 		"classmap": [

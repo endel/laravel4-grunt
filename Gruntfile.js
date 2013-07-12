@@ -22,11 +22,24 @@ module.exports = function(grunt) {
 				' */\n\n'
 		},
 
+		//copy: {
+			//main: {
+				//files: [{
+					//expand: true,
+					//flatten: true,
+					//src: [
+						//'components/jquery/jquery.js'
+					//],
+					//dest: 'public'
+				//}]
+			//}
+		//},
+
 		concat: {
 			javascripts: {
 				src: [
 					// Vendor
-					// ...
+					'components/jquery/jquery.js',
 					// Application
 					'assets/javascripts/**.js'
 				],
