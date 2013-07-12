@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 		uglify: {
 			javascripts: {
 				files: {
-					'public/app.min.js': ['assets/javascripts/**.js']
+					'public/app.min.js': '<%= concat.javascripts.src %>'
 				},
 				options: {
 					preserveComments: 'some'
@@ -76,7 +76,7 @@ module.exports = function(grunt) {
 		cssmin: {
 			combine: {
 				files: {
-					'public/app.min.css': ['assets/stylesheets/**.css']
+					'public/app.min.css': '<%= concat.stylesheets.src %>'
 				}
 			}
 		},
@@ -118,5 +118,3 @@ module.exports = function(grunt) {
 	// Minify
 	grunt.registerTask('min', ['uglify', 'cssmin']);
 };
-
-
