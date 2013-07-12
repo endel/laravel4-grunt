@@ -1,7 +1,7 @@
 ## Laravel 4 + Grunt
 
 That's an empty [Laravel 4](http://github.com/laravel/laravel) project using [Grunt](https://github.com/gruntjs/grunt)
-to compile javascript and stylesheet assets. You may customize it as you need.
+to compile javascript and stylesheet assets. You may customize it for your need.
 
 ### Dependencies
 
