@@ -16,7 +16,7 @@ to compile javascript and stylesheet assets. You may customize it for your need.
 
 ### Assets structure
 
-    app/                  # laravel application folder
+    app/              # laravel application folder
     assets/           # public assets folder
     ├── javascripts/  # javascript source assets
     └── stylesheets/  # stylesheet source assets
