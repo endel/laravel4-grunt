@@ -4,6 +4,7 @@
 	"keywords": ["framework", "laravel"],
 	"require": {
 		"laravel/framework": "4.0.*",
+		"phpunit/phpunit": "3.7.*",
 		"facebook/php-sdk": "> 0",
 		"components/jquery": "1.9.*"
 	},
@@ -32,6 +33,7 @@
 		]
 	},
 	"config": {
+		"bin-dir": "/usr/local/bin/",
 		"preferred-install": "dist"
 	},
 	"minimum-stability": "dev"
