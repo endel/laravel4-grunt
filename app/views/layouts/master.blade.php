@@ -5,7 +5,7 @@
 <!--[if gt IE 9]>--><html><!--<![endif]-->
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title>Axe | Red October</title>
+		<title>Laravel Project</title>
 
 		{{ HTML::script('app.min.js') }}
 		{{ HTML::style('app.min.css') }}
