@@ -81,9 +81,16 @@ module.exports = function(grunt) {
 		},
 
 		watch: {
-			scripts: {
-				files: ['<%= concat.stylesheets.src %>', '<%= concat.javascripts.src %>'],
-				tasks: ['jshint', 'uglify', 'cssmin'],
+			javascripts: {
+				files: '<%= concat.javascripts.src %>',
+				tasks: ['jshint', 'uglify'],
+				options: {
+					interrupt: true
+				}
+			},
+			stylesheets: {
+				files: '<%= concat.stylesheets.src %>',
+				tasks: ['cssmin'],
 				options: {
 					interrupt: true
 				}
