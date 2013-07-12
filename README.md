@@ -17,12 +17,12 @@ to compile javascript and stylesheet assets. You may customize it for your need.
 ### Assets structure
 
     app/                  # laravel application folder
-    ├── assets/           # public assets folder
-    |   ├── javascripts/  # javascript source assets
-    |   └── stylesheets/  # stylesheet source assets
-    ├── public/           # final public folder
-    |   ├── app.min.js    # compiled javascript files
-    |   └── app.min.css   # compiled stylesheet files
+    assets/           # public assets folder
+    ├── javascripts/  # javascript source assets
+    └── stylesheets/  # stylesheet source assets
+    public/           # final public folder
+    ├── app.min.js    # compiled javascript files
+    └── app.min.css   # compiled stylesheet files
 
 Run `grunt` to build the compiled assets, and `grunt watch` to watch for
 changes.
