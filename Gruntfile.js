@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 		pkg: grunt.file.readJSON('package.json'),
 
 		meta: {
-			name: "axe red october",
+			name: "<%= pkg.description %>",
 			banner: '/* \n' +
 				' * <%= pkg.homepage %>\n' +
 				' * \n' +

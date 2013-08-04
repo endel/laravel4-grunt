@@ -11,7 +11,7 @@ to compile javascript and stylesheet assets. You may customize it for your need.
 
 ### Installation
 
-    $ composer update
+    $ composer install
     $ npm install
 
 ### Assets structure
@@ -26,6 +26,10 @@ to compile javascript and stylesheet assets. You may customize it for your need.
 
 Run `grunt` to build the compiled assets, and `grunt watch` to watch for
 changes.
+
+### Artisan commands
+
+- `db:reset` - Drop all tables, migrate, and seed.
 
 ### License
 

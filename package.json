@@ -1,4 +1,5 @@
 {
+	"description" : "Project Name",
 	"homepage" : "http://myproject.com",
 	"devDependencies": {
 		"grunt": "0.4.0",
